@@ -11,11 +11,11 @@ button,
 span,
 div,
 p {
-    font-family: "Outfit", sans-serif;
+    font-family: "Outfit", sans-serif!important;
 }
 
 .logo {
-    font-family: "The Nautigal", cursive;
+    font-family: "The Nautigal", cursive!important;
 }
 
 .header-bg {
@@ -85,5 +85,17 @@ p {
 }
 
 #dish{
-    font-family: "Pattaya", sans-serif;
+    font-family: "Pattaya", sans-serif!important;
+}
+
+.slick-prev{
+    position: absolute;
+    top: -60px;
+    right: 55px;
+}
+
+.slick-next{
+    position: absolute;
+    top: -60px;
+    right: 0;
 }
